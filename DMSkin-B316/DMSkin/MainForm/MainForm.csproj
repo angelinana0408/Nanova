@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C09E23CE-6E8C-4BA2-A75E-C01CBCFAF48F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MainForm</RootNamespace>
+    <AssemblyName>MainForm</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DMSkin">
+      <HintPath>..\..\..\DMSkin_Secure\DMSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DirectUITEST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DirectUITEST.designer.cs">
+      <DependentUpon>DirectUITEST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMControl\DirectUI\CommandCollectionEditor.cs" />
+    <Compile Include="DMControl\DirectUI\DirectUIBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMControl\DirectUI\DirectUIBase.Designer.cs">
+      <DependentUpon>DirectUIBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMControl\DirectUI\DUILabel.cs" />
+    <Compile Include="DMSKIN315.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMSKIN315.Designer.cs">
+      <DependentUpon>DMSKIN315.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormB313.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormB313.Designer.cs">
+      <DependentUpon>FormB313.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metro.Designer.cs">
+      <DependentUpon>Metro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMControl\CommandCollectionEditor.cs" />
+    <Compile Include="DMControl\ImageItem.cs" />
+    <Compile Include="DMControl\Item.cs" />
+    <Compile Include="DMControl\LabelItem.cs" />
+    <Compile Include="DMControl\MusicItem.cs" />
+    <Compile Include="DMControl\MusicListItem.cs" />
+    <Compile Include="DMControl\MvItem.cs" />
+    <Compile Include="DMControl\DMControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMControl\DMControl.Designer.cs">
+      <DependentUpon>DMControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMControl\WeItem.cs" />
+    <Compile Include="Msg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Msg.Designer.cs">
+      <DependentUpon>Msg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyUserControl\MyButton.cs" />
+    <Compile Include="MyUserControl\MyMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyUserControl\MyMenu.Designer.cs">
+      <DependentUpon>MyMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tab.Designer.cs">
+      <DependentUpon>Tab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestGaosi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestGaosi.Designer.cs">
+      <DependentUpon>TestGaosi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WordRain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WordRain.Designer.cs">
+      <DependentUpon>WordRain.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DirectUITEST.resx">
+      <DependentUpon>DirectUITEST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMControl\DirectUI\DirectUIBase.resx">
+      <DependentUpon>DirectUIBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMSKIN315.resx">
+      <DependentUpon>DMSKIN315.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormB313.resx">
+      <DependentUpon>FormB313.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metro.resx">
+      <DependentUpon>Metro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Msg.resx">
+      <DependentUpon>Msg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyUserControl\MyMenu.resx">
+      <DependentUpon>MyMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Tab.resx">
+      <DependentUpon>Tab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestGaosi.resx">
+      <DependentUpon>TestGaosi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WordRain.resx">
+      <DependentUpon>WordRain.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <Content Include="MyPic.ico" />
+    <None Include="Resources\gamersky_06origin_11_201310242350DBA.jpg" />
+    <None Include="Resources\top_set_nol.jpg" />
+    <None Include="Resources\top_set_hover.jpg" />
+    <None Include="Resources\top_set_down.jpg" />
+    <None Include="Resources\top_play_nol.jpg" />
+    <None Include="Resources\top_play_hover.jpg" />
+    <None Include="Resources\top_play_down.jpg" />
+    <None Include="Resources\top_media_nol.jpg" />
+    <None Include="Resources\top_media_hover.jpg" />
+    <None Include="Resources\top_media_down.jpg" />
+    <None Include="Resources\pic %289%29.png" />
+    <None Include="Resources\pic %288%29.png" />
+    <None Include="Resources\pic %287%29.png" />
+    <None Include="Resources\pic %286%29.png" />
+    <None Include="Resources\pic %285%29.png" />
+    <None Include="Resources\pic %284%29.png" />
+    <None Include="Resources\pic %283%29.png" />
+    <None Include="Resources\pic %282%29.png" />
+    <None Include="Resources\pic %281%29.png" />
+    <None Include="Resources\AccountInfoWndBg.png" />
+    <None Include="Resources\discovery_item_music_circle_pressed.png" />
+    <None Include="Resources\discovery_item_music_circle.png" />
+    <None Include="Resources\arrow_right_pressed.png" />
+    <None Include="Resources\arrow_right_normal.png" />
+    <None Include="Resources\arrow_gdt_go.png" />
+    <None Include="Resources\Head.png" />
+    <None Include="Resources\O18590-1360x768.jpg" />
+    <None Include="Resources\Imag.jpg" />
+    <None Include="Resources\big0820150204190128.jpg" />
+    <None Include="Resources\big0820150204170134.jpg" />
+    <None Include="Resources\big0220150202201327.jpg" />
+    <None Include="Resources\Akon.jpg" />
+    <None Include="Resources\2014090210335747837.jpg" />
+    <None Include="Resources\20141112153917.jpg" />
+    <None Include="Resources\608179_000257109133_2.jpg" />
+    <None Include="Resources\003996G63ponF6.jpg" />
+    <None Include="Resources\0023dMot1E1nfl.jpg" />
+    <None Include="Resources\0019rBkH0xdGVc.jpg" />
+    <None Include="Resources\15_1024.jpg" />
+    <None Include="Resources\00008ozc3iA9tA.jpg" />
+    <None Include="Resources\004IUEk70RMd3c.jpg" />
+    <None Include="Resources\003kOk4V12sslU.jpg" />
+    <None Include="Resources\002is2243WRVTz.jpg" />
+    <None Include="Resources\000lhJMP0618Pz.jpg" />
+    <None Include="Resources\widget_playing_button_pressed.png" />
+    <None Include="Resources\widget_playing_button.png" />
+    <None Include="Resources\未命名-3.png" />
+    <None Include="Resources\未命名-2.png" />
+    <None Include="Resources\thumblogo.png" />
+    <None Include="Resources\sysbtn_min_normal.png" />
+    <None Include="Resources\sysbtn_close_normal.png" />
+    <None Include="Resources\Stop.png" />
+    <None Include="Resources\QihooForSand_bg.jpg" />
+    <None Include="Resources\pas.png" />
+    <None Include="Resources\MyPic1.png" />
+    <None Include="Resources\main_2.jpg" />
+    <None Include="Resources\logo-banner.png" />
+    <None Include="Resources\loginFlash.gif" />
+    <None Include="Resources\keyboard_normal.png" />
+    <None Include="Resources\itemOpen.png" />
+    <None Include="Resources\desktopmasks_bk.png" />
+    <None Include="Resources\btn_set_normal1.png" />
+    <None Include="Resources\btn_set_normal.png" />
+    <None Include="Resources\btn_mini_normal.png" />
+    <None Include="Resources\btn_mini_highlight.png" />
+    <None Include="Resources\btn_mini_down.png" />
+    <None Include="Resources\btn_max_normal.png" />
+    <None Include="Resources\btn_max_highlight.png" />
+    <None Include="Resources\btn_max_down.png" />
+    <None Include="Resources\btn_close_highlight.png" />
+    <None Include="Resources\btn_close_down.png" />
+    <None Include="Resources\btn_close_disable.png" />
+    <None Include="Resources\Blur-31.png" />
+    <None Include="Resources\Blur-3.png" />
+    <None Include="Resources\b30m0_1.png" />
+    <None Include="Resources\b30m0_0.png" />
+    <None Include="Resources\b26m0_0.png" />
+    <None Include="Resources\aio_head_normal.png" />
+    <None Include="Resources\A %286%29.png" />
+    <None Include="Resources\A %285%29.png" />
+    <None Include="Resources\A %284%29.png" />
+    <None Include="Resources\A %283%29.png" />
+    <None Include="Resources\A %281%29.png" />
+    <None Include="Resources\1_100.gif" />
+    <None Include="Resources\0b55b319ebc4b74571954a40ccfc1e178a821566.jpg" />
+    <None Include="Resources\MyPic.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

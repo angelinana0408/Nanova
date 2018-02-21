@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Temp.Text" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="MainMenuGreetingString.Text" xml:space="preserve">
+    <value>你想怎么办？</value>
+  </data>
+  <data name="MainMenuSelectMethod" xml:space="preserve">
+    <value>选择方法</value>
+  </data>
+  <data name="MainMenuCustomMethod" xml:space="preserve">
+    <value>自定义方法</value>
+  </data>
+  <data name="MainMenuCalibrate" xml:space="preserve">
+    <value>校准</value>
+  </data>
+  <data name="MainMenuMethodHistory" xml:space="preserve">
+    <value>历史记录</value>
+  </data>
+  <data name="MainMenuVOCLibrary" xml:space="preserve">
+    <value>VOC库</value>
+  </data>
+  <data name="ComeSoon.Text" xml:space="preserve">
+    <value>正在开发中</value>
+  </data>
+</root>

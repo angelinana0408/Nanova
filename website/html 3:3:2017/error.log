@@ -1,0 +1,20 @@
+[Thu Feb 02 06:25:01.339114 2017] [mpm_event:notice] [pid 1775:tid 140049949235072] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Feb 02 06:25:01.339134 2017] [core:notice] [pid 1775:tid 140049949235072] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Feb 03 04:06:30.999699 2017] [mpm_event:notice] [pid 1775:tid 140049949235072] AH00491: caught SIGTERM, shutting down
+[Fri Feb 03 04:06:32.079403 2017] [mpm_prefork:notice] [pid 26958] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Fri Feb 03 04:06:32.079544 2017] [core:notice] [pid 26958] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Feb 03 04:06:33.469030 2017] [mpm_prefork:notice] [pid 26958] AH00169: caught SIGTERM, shutting down
+[Fri Feb 03 04:06:34.587197 2017] [mpm_prefork:notice] [pid 27067] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Fri Feb 03 04:06:34.587273 2017] [core:notice] [pid 27067] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Feb 03 04:09:31.863313 2017] [mpm_prefork:notice] [pid 27067] AH00169: caught SIGTERM, shutting down
+[Fri Feb 03 04:09:32.984913 2017] [mpm_prefork:notice] [pid 28097] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Fri Feb 03 04:09:32.985010 2017] [core:notice] [pid 28097] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Feb 03 04:40:51.836048 2017] [:error] [pid 28102] [client 99.195.196.76:54814] PHP Warning:  fopen(./customer_name_email): failed to open stream: Permission denied in /var/www/html/saveInfo.php on line 4, referer: http://47.88.103.41/Contact.html
+[Fri Feb 03 04:40:51.836099 2017] [:error] [pid 28102] [client 99.195.196.76:54814] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/html/saveInfo.php on line 6, referer: http://47.88.103.41/Contact.html
+[Fri Feb 03 04:40:51.836106 2017] [:error] [pid 28102] [client 99.195.196.76:54814] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/saveInfo.php on line 7, referer: http://47.88.103.41/Contact.html
+[Fri Feb 03 04:49:35.652661 2017] [:error] [pid 28292] [client 99.195.196.76:54883] PHP Warning:  fopen(./customer_name_email): failed to open stream: Permission denied in /var/www/html/saveInfo.php on line 4, referer: http://47.88.103.41/Contact.html
+[Fri Feb 03 04:49:35.652770 2017] [:error] [pid 28292] [client 99.195.196.76:54883] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/html/saveInfo.php on line 6, referer: http://47.88.103.41/Contact.html
+[Fri Feb 03 04:49:35.652782 2017] [:error] [pid 28292] [client 99.195.196.76:54883] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/saveInfo.php on line 7, referer: http://47.88.103.41/Contact.html
+[Fri Feb 03 04:52:57.717619 2017] [:error] [pid 28104] [client 99.195.196.76:54974] PHP Warning:  fopen(./customer_name_email): failed to open stream: Permission denied in /var/www/html/saveInfo.php on line 4, referer: http://47.88.103.41/Contact.html
+[Fri Feb 03 04:52:57.717699 2017] [:error] [pid 28104] [client 99.195.196.76:54974] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/html/saveInfo.php on line 6, referer: http://47.88.103.41/Contact.html
+[Fri Feb 03 04:52:57.717709 2017] [:error] [pid 28104] [client 99.195.196.76:54974] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/saveInfo.php on line 7, referer: http://47.88.103.41/Contact.html

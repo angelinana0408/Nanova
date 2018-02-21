@@ -1,0 +1,36 @@
+{
+  "VOCList": [
+    "71-43-2",
+    "108-88-3",
+    "100-41-4",
+    "95-47-6",
+    "108-38-3",
+    "106-42-3"
+  ],
+  "CalibrationVOCList": [
+    "71-43-2",
+    "108-88-3",
+    "100-41-4"
+  ],
+  "lowestTempvalue": 30.0,
+  "lowestTvalue": 5.0,
+  "HighestTempvalue": 30.0,
+  "HighestTvalue": 0.0,
+  "RampSpeedvalue": 10.0,
+  "heartcuttingStartList": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "heartcuttingEndList": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

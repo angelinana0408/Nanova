@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>NavaTest Application</title>
+<link rel="icon" type="image/png" href="images/N_Logo-Transparent.ico" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+<!--[if lt IE 9]>
+<script src="scripts/ie9.js">IE7_PNG_SUFFIX=".png";</script>
+<![endif]-->
+<link href='http//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="stylesheets/style.css" />
+<link rel="stylesheet" href="stylesheets/responsive.css" />
+<style>
+.clickLi:hover{
+	cursor:pointer;
+}
+</style>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/jquery.bxSlider.min.js"></script>
+<script src="scripts/jquery.blackandwhite.min.js"></script>
+<script src="scripts/js_func.js"></script>
+<script>
+$(function(){
+	$('.features_slider').bxSlider({
+		auto: false,
+		displaySlideQty: 5,
+		moveSlideQty: 1,
+    	speed : 1000
+	});
+	$('.intro_slider').bxSlider({
+		auto: false,
+		controls : false,
+		mode: 'fade',
+		pager: true
+	});
+	var address = document.location.toString();
+	var current_Select = 'Select_' + address.substr(address.length-1,1);
+	$('#tabs ul li').removeClass('active');
+	var Selected = document.getElementById(current_Select);
+	Selected.classList.add("active");
+	var currentTab = 'tab-'+ address.substr(address.length-1,1);
+	var Current = document.getElementById(currentTab);
+	$('#tabs div').hide();
+	$(Current).show();
+});
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body >
+<div class="wraper">
+ <header class="header">
+  <a class="logo" href="index.html">construct</a>
+  <nav>
+  <!-- top menu -->
+   <ul>
+    <li class="navItem"><a class="navItemA" href="Product_introduction.html">Product</a></li>
+    <li class="navItem"><a class="navItemA" href="Application.html">Application</a>
+			<script>
+				function reloadPage(tabNo)
+  			{
+					self.location='Application.html#'+'tab-'+ tabNo ;
+  				window.location.reload();
+  			}
+			</script>
+     <ul>
+			 <li><a href="#tab1" onclick="reloadPage(1)">TVOC</a></li>
+       <li><a href="#tab2" onclick="reloadPage(2)">BTEX</a></li>
+       <li><a href="#tab3" onclick="reloadPage(3)">MTBE</a></li>
+       <li><a href="#tab4" onclick="reloadPage(4)">TCE/PCE</a></li>
+ 	     <li><a href="#tab5" onclick="reloadPage(5)">Malodorous Gas</a></li>
+       <li><a href="#tab6" onclick="reloadPage(6)">Vehicle Indoor</a></li>
+       <li><a href="#tab7" onclick="reloadPage(7)" >Environmental Air</a></li>
+       <li><a href="#tab8" onclick="reloadPage(8)">Pollution Source</a></li>
+       <li><a href="#tab9" onclick="reloadPage(9)" >Water Sample (Online)</a></li>
+     </ul>
+    </li>
+
+    <li class="navItem"><a class="navItemA" href="Documents.html" id="docsItem">Docs</a></li>
+    <li class="navItem"><a class="navItemA" href="Contact.html">Contact</a></li>
+    <li class="navItem"><a class="navItemA" href="company.html">Company</a>
+     <ul>
+      <li><a href="company.html">About Us</a></li>
+      <li><a href="company_blog.html">News & Events</a></li>
+     </ul>
+    </li>
+   </ul>
+  <!-- /top menu -->
+  </nav>
+ </header>
+</div>
+
+<div class="content_block">
+ <div class="wraper">
+ 	<p style="font-size: 16px;color: #000000;"><br/>The following compounds and chemicals can be identified by NovaTest&trade; P100. Knowing what problems you
+		have in your business, home, workplace or local environment can help you gather support for addressing those
+		issues. <br/><br/><br/></p>
+  <!-- left_nav -->
+  <div class="left_nav">
+	<div id="tabs" class="c_after">
+     <ul class="tab_select">
+			 <script>
+ 				function clickLi(idNo)
+   			{
+ 					location.href = '#tab-'+idNo;
+					window.location.reload();
+   			}
+ 			</script>
+      <li id="Select_1" onclick="clickLi(1)" class="clickLi"><a href="#tab-1">TVOC</a></li>
+      <li id="Select_2" onclick="clickLi(2)" class="clickLi"><a href="#tab-2">BTEX</a></li>
+      <li id="Select_3" onclick="clickLi(3)" class="clickLi"><a href="#tab-3">MTBE</a></li>
+      <li id="Select_4" onclick="clickLi(4)" class="clickLi"><a href="#tab-4">TCE/PCE</a></li>
+      <li id="Select_5" onclick="clickLi(5)" class="clickLi"><a href="#tab-5">Malodorous Gas</a></li>
+      <li id="Select_6" onclick="clickLi(6)" class="clickLi"><a href="#tab-6">Vehicle Indoor</a></li>
+      <li id="Select_7" onclick="clickLi(7)" class="clickLi"><a href="#tab-7">Environmental Air</a></li>
+      <li id="Select_8" onclick="clickLi(8)" class="clickLi"><a href="#tab-8">Pollution Source</a></li>
+      <li id="Select_9" onclick="clickLi(9)" class="clickLi"><a href="#tab-9">Water Sample (Online)</a></li>
+     </ul>
+     <div id="tab-1">
+      <ul style="font-size: 16px;">
+       <li>Total volatile organic compounds (TVOC), encompass a variety of VOCs that are characteristically
+       	defined with low boiling points.</li>
+       <li>VOCs are widely present almost everywhere, either being released from natural gas and oil,
+		generated by plants and animals, or simply produced as a result of human activity.</li>
+       <li>Some VOCs are important to production and bio-communication, but others have negative
+		effects to environment and human health, even at low concentrations in air or water.</li>
+       <li>The US government has approved various regulations toward the emission of VOCs, while TVOCs
+		 are measured for the sake of simplicity, especially when the concentration of each VOC is
+		 relatively low.</li>
+      </ul>
+     </div>
+     <div id="tab-2">
+     	 <ul style="font-size: 16px;">
+        <p></p>BTEX represents the combination of benzene, toluene, ethylbenzene and xylene (o-xylene,
+      	m-xylene, p-xylene). These chemicals are colorless, can be highly flammable and have a strong
+      	odor. They are aromatic hydrocarbons commonly found in refinery and chemical industries
+      	relating to petroleum, and can be found in many everyday household products, as well as the
+      	ambient air as a result of fuel combustion.<br/><br/>
+		Though the components of BTEX are essential in the manufacturing of various petrochemical
+		products such as plastics, foams, metals, textiles, and medicines, they are found to have
+		long-term negative effects on human health. BTEX can lead to irritation of eyes, nose and
+		skin, nervous system problems and even various forms of cancer. Benzene itself is known to
+		cause leukemia and other forms of cancer with prolonged exposure.
+		</p><ul></ul>
+     </div>
+     <div id="tab-3">
+	<ul style="font-size: 16px;">
+       <li>MTBE represents methyl tertiary butyl ether, which is a colorless, flammable and volatile
+       	 liquid commonly used as gasoline additive and oxygenate.</li>
+       <li>It is one of the main sources of underground water solution with odor and unpleasant
+       	flavor at very low concentration, and is thus forbidden by the US government as fuel additive.</li>
+       <li>However, MTBE is widely used as a substitute solvent for diethyl ether, and in some cases,
+       	 it is used to decrease the risk of explosion from peroxides. </li>
+       <li>It’s also used to dissolve gallstones by direct injection to human body.</li>
+       <li>MTBE demand is hard to define and its presence is difficult to find or identify; thus, the monitoring of this VOC requires considerable effort.</li>
+      </ul>
+     </div>
+     <div id="tab-4">
+      <p style="font-size: 16px;"><br/>TCE, or trichloroethylene, is a popular solvent with a sweet smell. It is a
+      	nonflammable liquid used widely in the extraction of vegetable oil and caffeine, anesthesiology, dry cleaning,
+      	 metal degreasing, and many other applications. However, TCE has been classified as a carcinogen by the US
+      	 Environmental Protection Agency (EPA). It can cause problems within the central nervous system and can be
+      	 quite harmful if present in the water or air.<br/><br/>
+      	PCE (perchloroethylene or tetrachloroethylene) is commonly used in dry cleaning applications. It is a colorless
+      	and nonflammable liquid with a strong sweet smell. It was also classified as a carcinogen, similar to TCE, for
+      	its potential to cause problems within the central nervous system and ability to cause cancer. What’s more, it
+      	contaminates soil easily, is hard to remove from water, and can be regarded as a toxic chemical to humans.
+      </p><ul></ul>
+     </div>
+     <div id="tab-5">
+      <p class="wp_img"><img src="images/features/Malodorous Gas.jpg" alt=""/>
+      <p>Malodorous gases are VOCs with an extremely unpleasant smell, as the name implies. They tend to be released
+      	during industrial production, sewage discharge, or waste combustion. Sewage treatment and garbage treatment sites,
+      	 pharmaceutical industries, petrochemical industries, slaughterhouses, farms, paper mills, printing industries,
+      	 and laboratories are all potential sources of these VOCs.</p>
+      <ul>
+       <li>Malodorous gases mainly comprise ammonia, carbon disulfide, dimethyl sulfide, dimethyl
+       	disulfide, hydrogen sulfide, methanethiol, styrene, trimethylamine, etc, with miscellaneous
+       	sources and toxicity.</li>
+       <li>People exposed to malodorous gases are vulnerable to problems with the respiratory system,
+       	 digestive system, endocrine system, nervous system and cardiovascular system. </li>
+       <li>Many countries have established strict regulations and standards towards the emission of malodorous gases.</li>
+      </ul>
+     </div>
+     <div id="tab-6">
+      <p class="wp_img"><img src="images/features/Vehicle Indoor .jpg" alt="" style="width:60%; padding-left: 30px;"/>
+      <p style="font-size: 16px;">Some people may notice an unpleasant smell in their car, especially new cars. This
+      	attributes to the VOCs released from decorations, paint, and adhesives present in the
+      	interior of the vehicle. If exposed to strong sunlight and high temperatures, the organic
+      	materials inside the car can decompose and release VOCs. Meanwhile, VOCs brought in from the
+      	 outside can be trapped in the air conditioning system and diffuse into the vehicle’s
+      	 interior. <br/><br/>
+      	 Most of the following VOCs can cause cancer, or increase the risk of developing cancer long term.
+      	  People briefly exposed may experience headaches, nausea, dizziness, difficulty
+      	  concentrating, and can thus increase the risk of an accident.
+      </p>
+      <ul style="font-size: 16px">
+       <li>Acetaldehyde</li>
+       <li>Acrolein</li>
+       <li>Benzene</li>
+       <li>Ethylbenzene</li>
+       <li>Styrene</li>
+       <li>Toluene</li>
+      </ul>
+     </div>
+     <div id="tab-7">
+      <p style="font-size: 16px">The source of pollutants in environmental air can vary greatly with combustions and
+      	discharges of industries, burning of agricultural plants, vaporization of pesticides,
+      	burning and rotting of trash, paintings and decorative materials in constructions, automobile
+      	 exhaust, leaking of industrial gases, sites of manufacturing accidents, vaporization of
+      	 chemicals, etc. Usually, the chemicals can diffuse, condense, react or be absorbed to spell
+      	  any major concerns. However, if they are allowed accumulate and reach a critical
+      	  concentration the negative effects must be treated and rectified immediately.
+      </p>
+      <ul style="font-size: 16px">
+       <li>These pollutants may contain ammonia, sulfur dioxide, 1,2-dichlorobenzene,
+       	 1,2-dibromoethane, 1,1-dichloroethene, allyl chloride, benzene, xylene, styrene, toluene,
+       	  dichloropropene, etc. </li>
+       <li>These pollutants have negative effects to all forms of life, while some VOCs can become
+       	poisonous to animals and plants exposed to sunlight, and contribute to the development of
+       	cancer in humans.</li>
+      </ul>
+     </div>
+     <div id="tab-8">
+      <p class="wp_img"><img src="images/features/Chemical Plant .jpg" alt="" style="width:60%; padding-left: 30px;"/>
+      <p style="font-size: 16px">Similar to those VOCs found in the air, the pollutants from pollution can come from almost
+      	anywhere, but more specifically can result from industry discharges, combustions and sewage,
+      	sites of manufacturing accidents, household sewage, agricultural waste and so forth. The
+      	pollutants from such sources are usually of high concentration, meaning humans are more
+      	 susceptible to disease. These types of VOCs are very difficult to diffuse quickly, and are
+      	 some of the most dangerous.<br/><br/>
+      	 These pollutants are usually acetone, anisole, benzaldehyde, benzene, butyl acetate,
+      	  cyclopentanone, ethylbenzene, heptane, isopropanol, xylene, styrene, toluene, etc.
+      	  Like many other VOCs previously listed, these chemicals are carcinogenic, and have a
+      	  tendency to damage the central nervous system.
+      </p>
+      <ul></ul>
+     </div>
+     <div id="tab-9">
+      <p class="wp_img"><img src="images/features/Water Sample .jpg" alt="" style="width:60%; height:200px;padding-left: 30px;"/>
+      <p style="font-size: 16px">While water is a crucial building block to support life, VOC
+      	pollution of water can consequently affect the entire ecosphere. The sheer mobility of water
+      	 makes it extremely dangerous to contaminate, as pollutants can easily be carried through
+      	 the aquatic system, and cause global pollution. Some of the pollutants can be degraded by
+      	 microorganisms, limiting the damage they can cause, while others simply cannot. This is why
+      	  water is a medium that must constantly be tested to remove harmful VOCs from contaminating
+      	the environment at an abnormally quick rate.<br/><br/>
+      	Common contaminants are 1,2-dichlorobenzene, 1,4-dichlorobenzene, benzene, chlorobenzene,
+      	dichloromethane, ethylbenzene, isopropylbenzene, xylene, styrene, toluene, trichloroethylene,
+      	 etc. Benzene and its derivatives, as well as some halogenated hydrocarbons, are well known
+      	toxins and carcinogens. Living creatures in direct contact with such pollutions are extremely
+      	 vulnerable to a myriad of health problems.
+      </p>
+      <ul></ul>
+     </div>
+
+    </div>
+  </div>
+  <!-- /left_nav -->
+
+ </div>
+</div>
+
+<!-- footer -->
+<div class="footer">
+ <footer>
+  <!-- bottom about -->
+  <div class="bottom_about">
+   <p><img src="images/WebLogo.png" alt="" style="width: 200px;"/></p>
+   <p>Nanova Environmental, Inc. (NEI) provides advanced Technologies, Products, and Services for Environmental Monitoring
+   	 and Environmental Protection. We are proud to launch the very first portable 2D Gas Chromatography (GC)/PID system.
+   	 Our goal is to continually improve our products beyond the industry standards with the help of our brilliant engineers
+   	  and rigorous research. Our vision is “Better Life Through Innovation”.</p>
+  </div>
+  <!-- /bottom about -->
+  <!-- recent tweets -->
+  <div class="recent_tweets">
+   <h3><span>United states</span></h3>
+   <ul>
+   	<li> <strong>Contact: </strong> <br/>Tel:  &nbsp &nbsp &nbsp+1 (573)256-6266 <br/> Fax: &nbsp &nbsp +1 (573)256-6266
+   	<br/>E-mail:<a href="mailto:contact_us@nanovaenv.com"> contact_us@nanovaenv.com</a><br/><br/>
+    <strong>Address: </strong> <br/>3009 David Dr. <br/>Columbia, MO. 65202 <br/>
+    	  <a target="_blank" href="https://www.google.com/maps/place/3009+David+Dr,+Columbia,+MO+65202/@38.9852623,-92.2943834,17z/data=!4m5!3m4!1s0x87dcc7e80f1c3b79:0x69170b47252033c4!8m2!3d38.985304!4d-92.292184">Show on Maps</a>
+      <br/><br/>
+    </li>
+   </ul>
+  </div>
+  <!-- /recent tweets -->
+  <!-- recent posts -->
+  <div class="recent_posts">
+   <h3><span>China</span></h3>
+   <strong>Contact: </strong> <br/>Tel:  &nbsp &nbsp &nbsp+86 0512-67901141 <br/> Fax: &nbsp &nbsp +86 0512-67091145
+   	<br/>E-mail:<a href="mailto:contact_us@nanovaenv.com"> contact_us@nanovaenv.com</a><br/><br/>
+    <strong>Address: </strong> <br/>1518-1201 Xinsu building <br/>East circle Rd. <br/>Suzhou,  Jiangsu province<br/>
+    	  <a target="_blank" href="http://map.baidu.com/?newmap=1&s=con%26wd%3D%E8%8B%8F%E5%B7%9E%E4%B8%9C%E7%8E%AF%E8%B7%AF+1518%26c%3D224&from=alamap&tpl=mapsite">Show on Maps</a>
+      <br/><br/>
+  </div>
+  <!-- /recent posts -->
+  <!-- subscribe block -->
+  <div class="subscribe_block">
+   <h3><span>Stay Connected</span></h3>
+   <form method="post" action="#" />
+    <p><input type="text" id="name" value="NAME ..." /></p>
+    <p><input type="text" id="email" value="EMAIL ..." /></p>
+    <p><input type="submit" value="Subscribe" /></p>
+   </form>
+  </div>
+  <!-- /subscribe block -->
+ </footer>
+ <!-- social block -->
+<div class="social_block">
+ <div class="wraper">
+  <p>Stay connected with us in your favorite flavor!</p>
+  <ul>
+   <li class="facebook"><a href="#">Facebook</a></li>
+   <li class="twitter"><a href="#">Twitter</a></li>
+   <li class="linkedin"><a href="#">LinkedIn</a></li>
+   <li class="rss"><a href="#">RSS</a></li>
+   <li class="dribbble"><a href="#">Dribbble</a></li>
+   <li class="google"><a href="#">Google+</a></li>
+  </ul>
+ </div>
+</div>
+<!-- /social block -->
+</div>
+
+<!-- copyright -->
+<div class="copyright">
+ <div class="wraper">
+  <p>Copyright 2016 Nanova Environmental Inc. </p>
+  <a class="top" href="#">Back to the top</a>
+ </div>
+</div>
+<!-- /copyright -->
+<!-- /footer -->
+</body>
+</html>

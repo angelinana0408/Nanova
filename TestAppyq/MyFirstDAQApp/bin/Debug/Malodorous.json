@@ -1,0 +1,50 @@
+{
+  "VOCList": [
+    "Ammonia",
+    "Trimethylamine",
+    "Dimethyl sulfide",
+    "Hydrogen sulfide",
+    "Methanthiol",
+    "Dimethyl disulfide",
+	"Carbon disulfide",
+	"Styrene"
+  ],
+  "VOCRetentionTime": [
+    5.74,
+    5.57,
+    7.02,
+    10.92,
+    0.0,
+    0.0,
+	0.0,
+	0.0
+  ],
+  "TheCalibration": "Malodorous_Cali_20170222154912_10000",
+  "CalibrationVOCList": [
+    "71-43-2",
+    "108-88-3",
+    "100-41-4"
+  ],
+  "lowestTempvalue": 30.0,
+  "lowestTvalue": 2.0,
+  "HighestTempvalue": 30.0,
+  "HighestTvalue": 0.0,
+  "RampSpeedvalue": 10.0,
+  "heartcuttingStartList": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "heartcuttingEndList": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "heartcuttingNumber": 0
+}

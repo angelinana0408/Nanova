@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Product Introduction</title>
+<link rel="icon" type="image/png" href="images/N_Logo-Transparent.ico" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+<!--[if lt IE 9]>
+<script src="scripts/ie9.js">IE7_PNG_SUFFIX=".png";</script>
+<![endif]-->
+<link href='http//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="stylesheets/style.css" />
+<link rel="stylesheet" href="stylesheets/responsive.css" />
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/jquery.bxSlider.min.js"></script>
+<script src="scripts/jquery.blackandwhite.min.js"></script>
+<script src="scripts/jquery.simpleFAQ-0.7.min.js"></script>
+<script src="scripts/js_func.js"></script>
+<script>
+$(function(){
+	$('.features_slider').bxSlider({
+		auto: false,
+		displaySlideQty: 5,
+		moveSlideQty: 1,
+    	speed : 1000
+	});
+	$('.intro_slider').bxSlider({
+		auto: false,
+		controls : false,
+		mode: 'fade',
+		pager: true
+	});
+});
+
+
+</script>
+<script>
+$(function(){
+	$('#faq').simpleFAQ();
+});
+</script>
+<script>
+$(function() {
+	var readMoreFlag = 0;//if is 0, don't disply guideline, if is 1, disply guideline.
+	$('#readmorebtn').on('click', function(){
+			if(readMoreFlag == 0)
+			{
+				$('.guidelinesDiv').show();
+				$('#readmorebtn').text(' Read Less ');
+				readMoreFlag = 1;
+			}
+			else
+			{
+				$('.guidelinesDiv').hide();
+				$('#readmorebtn').text('Read More');
+				readMoreFlag = 0;
+			}
+		});
+});
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<div class="wraper">
+ <header class="header">
+  <a class="logo" href="index.html">construct</a>
+  <nav>
+  <!-- top menu -->
+   <ul>
+    <li class="navItem"><a class="navItemA" href="Product_introduction.html">Product</a></li>
+    <li class="navItem"><a class="navItemA" href="Application.html">Application</a>
+     <ul>
+      <li><a href="Application.html#tab-1">TVOC</a></li>
+      <li><a href="Application.html#tab-2">BTEX</a></li>
+      <li><a href="Application.html#tab-3">MTBE</a></li>
+      <li><a href="Application.html#tab-4">TCE/PCE</a></li>
+	  <li><a href="Application.html#tab-5">Malodorous Gas</a></li>
+      <li><a href="Application.html#tab-6">Vehicle Indoor</a></li>
+      <li><a href="Application.html#tab-7">Environmental Air</a></li>
+      <li><a href="Application.html#tab-8">Pollution Source</a></li>
+      <li><a href="Application.html#tab-9">Water Sample (Online)</a></li>
+     </ul>
+    </li>
+    <li class="navItem"><a class="navItemA" href="Documents.html" id="docsItem">Docs</a></li>
+    <li class="navItem"><a class="navItemA" href="Contact.html">Contact</a></li>
+    <li class="navItem"><a class="navItemA" href="company.html">Company</a>
+     <ul>
+      <li><a href="company.html">About Us</a></li>
+      <li><a href="company_blog.html">News & Events</a></li>
+     </ul>
+    </li>
+   </ul>
+  <!-- /top menu -->
+  </nav>
+ </header>
+</div>
+
+<div class="content_block">
+ <!-- /top_title -->
+ <div class="wraper">
+  <!-- intro text -->
+  <div class="intro_text">
+   <ul>
+    <li>
+     <div class="bwWrapper">
+			 <iframe src="https://www.youtube.com/embed/68ciztFFqL8?playlist=xS0dOKOttzc&loop=1&autoplay=1" style="width: 426px; height: 238px;" frameborder="0" allowfullscreen></iframe>
+		 </div>
+     <div class="desc">
+      <h4 style="color: #000000;">NovaTest &trade; P100 Protable GC</h4>
+      <p style="font-size: 16px;color: #000000;">
+     	 NovaTest&trade; NovaTestTM P100 is the first portable two-dimensional gas chromatography system
+			 developed for  rapid analysis of complex volatile organic compounds (VOCs) with high sensitivity.
+			 The P100 is designed with the user in mind, in order to achieve optimal results without sacrificing
+			 efficiency or ergonomics. The unit boasts a superior detection limit of a few picogram (10<sup>-12</sup>gram)
+			 for benzene, toluene, ethylbenzene, and xylene, which is equivalent to a few parts-per-trillion (ppt)
+			 concentration in 1-liter of air sample.Meanwhile, the lightweight and compact design comes with a
+			 built-in carrier gas cartridge and rechargeable battery that can last at least 8 hrs for high mobility and portability.
+    </li>
+   </ul>
+  </div>
+  <!-- /intro text -->
+  <div class="why_choose_explore">
+   <h4 style="font-size: x-large;color: #000000">Product Description</h4>
+  <!-- why choose -->
+  <div class="why_choose">
+   <ul style="font-size: 16px;color: #000000;">
+    <li><b>Sensitive.</b> Detection limit of NovaTest&trade; P100 reaches a level of sub-ppb.</br></br></br></li>
+    <li><b>Rapid.</b> NovaTest&trade; P100 can can analyze tens of VOCs effectively within as fast as several minutes.</br></br></br></li>
+    <li><b>Stable.</b> The auto-cleaning set-up prevents NovaTest&trade; P100 from any interference of residual samples.</br></br></br></li>
+    <li><b>Powerful.</b> Coeluted peaks from the first-dimensional column can be further separated and analyzed in 2D columns.</br></br></br></li>
+    <li><b>Reconfigurable.</b> The number and the properties of the second-dimensional columns can be  reconfigured.
+			The corresponding detectors are replaceable and upgradable.</li>
+  </div>
+  <!-- /why choose -->
+  <!-- features_explore -->
+  <div class="features_explore">
+   <ul>
+    <li>
+     <div class="bwWrapper"><a href="#"><img src="images/about_us/why_choose_us_1.png" width="94" height="65" alt="" /></a></div>
+     <p style="font-size: 16px;color: #000000;text-align: left;">
+        The system is fully automated and requires minimal user input to operate.
+				Testing can be initiated quickly and easily using one of several built-in methods based on the target application.
+				This allows for anyone to effectively use the P100 system without extensive knowledge of GC theory.
+				Simplistic instructions along with a streamlined software will generate an intuitive and customizable report on
+				the detected gases and their respective concentrations.</br></br></br>
+     </p>
+    </li>
+    <li>
+     <div class="bwWrapper"><a href="#"><img src="images/about_us/why_choose_us_2.png" width="94" height="65" alt="" /></a></div>
+     <p style="font-size: 16px;color: #000000;text-align: left;">
+     	Users can also customize and run their own methods using the ‘Advanced Test’ function for specific applications.<br/>
+			The versatility of the P100 is simply unmatched and can analyze the analytes in various media such as vapor and liquid.
+			This alone solidifies the NovaTest&trade; P100 as a much more accessible solution to any GC application compared
+			to other commercially available gas chromatography devices.
+     </p>
+    </li>
+   </ul>
+  </div>
+  <!-- /features_explore -->
+  </div>
+  <div class="services_option4">
+   <ul>
+    <li class="design">
+     <a class="circle_link" href="#">&nbsp;</a>
+     <img src="images/img.png" width="100" height="105" alt="" />
+     <h4 style="color: #000000;font-size: 20px;">Portable</h4>
+     <p><span style="color: #000000;">Small size and Light weight</span></p>
+     <p style="font-size: 16px;color: #000000;"><br/><br/><br/>Innovative MEMS (Micro Electro Mechanical Systems) as and
+			 microfluidic technologies are employed to achieve a compact size and light weight of the P100.
+			 This makes field testing easy, fast, and accurate.
+     </p>
+     <p style="font-size: 16px;color: #000000;"><b>Dimension:</b> 14 in × 12 in × 6 in<br/>
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 (36 cm × 30 cm × 15 cm)<br/>
+     <b>Weight:</b> 15 lb (7 kg) <br/>
+     <b>Build-in carrier gas </b></p>
+    </li>
+    <li class="flexible">
+     <a class="circle_link" href="#">&nbsp;</a>
+     <img src="images/img.png" width="100" height="105" alt="" />
+     <h4 style="color: #000000;font-size: 20px;">Powerful</h4>
+     <p><span style="color: #000000;">Separate more than 50 VOCs</span></p>
+     <p style="font-size: 16px;color: #000000;"><br/><br/><br/>
+     	Most VOCs are separated in the primary column and detected by the primary PID.
+			Using the P100, VOCs that cannot be separated by the primary column will be ‘heart-cut’
+			and sent to the secondary column for reanalysis with a different separation mechanism.
+     </p>
+     <p style="font-size: 16px;color: #000000;"><b>Separation capability:</b></br> More than 50 VOCs</p>
+    </li>
+    <li class="easy">
+     <a class="circle_link" href="#">&nbsp;</a>
+     <img src="images/img.png" width="100" height="105" alt="" />
+     <h4 style="color: #000000;font-size: 20px;">Rapid</h4>
+     <p><span style="color: #000000;">microfluidic PID</span></p>
+     <p style="font-size: 16px;color: #000000;"><br/><br/><br/>The P100 utilizes a cutting-edge PID module to
+			 further enhance its capabilities in gas chromatography.
+			 The highly sensitive microfluidic PID has a virtually zero dead volume, and consequently,
+			 the response time is shortened considerably.   <br/>
+     </p>
+    </li>
+   </ul>
+  </div>
+  <div class="process">
+
+  <!-- process -->
+  <h4 style="font-size: x-large;color: #000000">Testing Guidelines</h4>
+   <ul>
+    <li>
+     <h3 style="color: #000000;"><span>Step 1</span> Connect</h3>
+      <p>Connect your NovaTest&trade; P100 to your computer. </p>
+      <p>Connect your sample NovaTestTM P100.  </p>
+    </li>
+    <li>
+     <h3 style="color: #000000;"><span>Step 2</span> Open</h3>
+      <p>Open the carrier gas.</p>
+      <p>Open the software on your computer.</p>
+    </li>
+    <li>
+     <h3 style="color: #000000;"><span>Step 3</span> Select</h3>
+     <p>Select ‘Run Test’ on home page.</p>
+     <p>Select a method.</p>
+    </li>
+    <li>
+     <h3 style="color: #000000;"><span>Step 4</span> Test</h3>
+     <p>Input the sampling time. </p>
+	 <p>Click ‘Start’.</p>
+    </li>
+   </ul>
+  </div>
+  <!-- /process -->
+
+  <!-- client list
+  <div class="featured_list client_list">
+   <div class="features_slider_wrap">
+   <h3>Our Most Successful Clients</h3>
+   <ul class="features_slider">
+    <li><div><div class="bwWrapper"><a href="#"><img src="images/client_logos/client_logo_1.png" alt="" /></a></div></div></li>
+    <li><div><div class="bwWrapper"><a href="#"><img src="images/client_logos/client_logo_2.png" alt="" /></a></div></div></li>
+    <li><div><div class="bwWrapper"><a href="#"><img src="images/client_logos/client_logo_3.png" alt="" /></a></div></div></li>
+    <li><div><div class="bwWrapper"><a href="#"><img src="images/client_logos/client_logo_4.png" alt="" /></a></div></div></li>
+    <li><div><div class="bwWrapper"><a href="#"><img src="images/client_logos/client_logo_5.png" alt="" /></a></div></div></li>
+    <li><div><div class="bwWrapper"><a href="#"><img src="images/client_logos/client_logo_6.png" alt="" /></a></div></div></li>
+   </ul>
+   </div>
+  </div>
+  <!-- /client list -->
+  <!--Video-->
+  <div class="blog_entries blog_entries_full">
+   <div class="post post_medium">
+    <div class="img_wrap bwWrapper" style="width:48%; height: 249px;">
+  	  <iframe src="https://player.vimeo.com/video/142896390" style="width: 100%; height: 100%;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+    </div>
+    <div class="desc" style="width: 48%; float: left;" >
+     <h4 style="color: #000000;">How to setup NovaTest &trade; P100 Protable GC</h4>
+     <p style="color: #000000;font-size: 16px;">Congratulations on the purchase of your new NovaTest&trade; P100! It’s an innovative device that
+     	likens complex gas chromatography analysis to the operation of an auto focus camera.
+     	Installation is simple, and there is no need to be a GC expert to achieve optimal results.
+     	If there’s still any trouble, we’d love to send a technician to help you with any aspect of
+     	the device you might be having trouble with.<br/>
+     	If you choose to set up the device by yourself, please carefully unpack your NovaTest&trade; P100,
+     	 and make sure you have received all the items necessary to operate the device. Below is a
+     	 simple checklist to ensure you can account for all the parts of your P100.
+     </p>
+     <a href="#guidelinesDiv" class="read_more btn_col" id="readmorebtn" style="float: right;">Read More</a>
+    </div>
+   </div>
+  </div>
+  <!--/Video-->
+	<!--install-->
+<div class="guidelinesDiv" style="display: none">
+<h4 style="font-size: x-large;color: #000000">Guidelines</h4>
+<div class="wraper">
+<!-- /faq_list-->
+<div class="faq_list">
+<ul class="filter">
+ <li class="all active" style="font-size: 20px;"><a href="#packaging_checklist">Packaging</a></li>
+ <li class="business" style="font-size: 20px;"><a href="#business">Installation</a></li>
+ <li class="technical" style="font-size: 20px;"><a href="#technical">Testing</a></li>
+</ul>
+<ul id="faq">
+	<!--table-->
+<div class="table_in_guidelines">
+<div class="pricing_option pricing_option3" id="checkTable">
+	<p style="font-size: 20px;color: #000000;text-align: center;">Packaging  checklist</p>
+ <ul>
+	<li style="width: 270px;">
+	 <p style="padding-bottom: 8px;padding-top: 15px;color: #000000;font-size: 18px;"><b>Item</b></p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">User Manual</p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">USB cable</p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">Sampling filter</p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">Sampling tube</p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">Carrier gas cartridger</p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">Software USB</p>
+	</li>
+	<li style="width: 430px;">
+	 <p style="padding-bottom: 8px;padding-top: 15px;color: #000000;font-size: 18px;"><b>Description</b></p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;"> </br></p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">Plastic bag packaging, 1.5 m, black, part#</p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">Plastic bag packaging, 25 mm, 0.1 um, white, part#</p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">Plastic bag packaging, blue, part#</p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">In carrier gas cabin, part#</p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">Flash drive, part#</p>
+	</li>
+	<li style="width: 150px;">
+	 <p style="padding-bottom: 8px;padding-top: 15px;color: #000000;font-size: 18px;"><b>Qty</b></p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">1</p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">1</p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">10</p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">1</p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">1</p>
+	 <p style="padding-bottom: 8px;padding-top: 8px;color: #000000;font-size: 16px;">1</p>
+	</li>
+ </ul>
+</div>
+</div>
+
+	<!--table end-->
+ <li class="business" style="display: none">
+	<p class="question" style="font-size: 16px;color: #000000">Install the software</p>
+<div class="answer">
+	 <p style="font-size: 16px;color: #000000">
+		Plug in the flash drive, open the install file and follow the instructions. (.exe for Microsoft system and .dmg
+		for iOX system) The software should open automatically.
+ </p>
+</div>
+ </li>
+ <li class="business" style="display: none">
+	<p class="question" style="font-size: 16px;color: #000000">Connect the NovaTestTM P100 with your computer using the provided USB cable. </p>
+<div class="answer">
+	 <p style="font-size: 16px;color: #000000">
+		Software should automatically open following installation, but can also be opened manually.
+ </p>
+</div>
+ </li>
+ <li class="business" style="display: none">
+	<p class="question" style="font-size: 16px;color: #000000">Activate your ‘Advanced Test’ if you have also purchased this function.</p>
+<div class="answer">
+	 <p style="font-size: 16px;color: #000000">
+		Enter the code you received for advanced testing. If you wish to purchase one, click on ‘Don’t have a code?’
+		 and you will be redirected to the purchase link (internet access required).
+ </p>
+</div>
+ </li>
+ <li class="business" style="display: none">
+	<p class="question" style="font-size: 16px;color: #000000">Open the cabin of NovaTestTM P100 and attach the carrier gas cartridge tightly to the regulator. </p>
+<div class="answer">
+	 <p style="font-size: 16px;color: #000000">
+		Make sure the seal is tight.
+ </p>
+</div>
+ </li>
+ <li class="business" style="display: none">
+	<p class="question" style="font-size: 16px;color: #000000">Attach the sampling filter to the sampling port; then, attach the sampling tube to the filter. </p>
+<div class="answer">
+	 <p style="font-size: 16px;color: #000000">
+		The sampling port is located at the upper left corner in the front of the device. Double check all connections to ensure tight seals.
+ </p>
+</div>
+ </li>
+ <li class="business" style="display: none" style="display: none">
+	<p class="question" style="font-size: 16px;color: #000000">Turn on the power switch. </p>
+<div class="answer">
+	 <p style="font-size: 16px;color: #000000">
+		If the battery is low, use the provided power cord to connect your device with power source through the power port on the back of the device.
+ </p>
+</div>
+ </li>
+ <li class="business" style="display: none">
+	<p class="question" style="font-size: 16px;color: #000000">Turn on the carrier gas </p>
+<div class="answer">
+	 <p style="font-size: 16px;color: #000000">
+		by turning the carrier gas adjuster. The adjuster is located at the upper right corner in the front of the device.
+		 The indicator should show approximately 10 psi for most applications.
+ </p>
+</div>
+ </li>
+ <li class="business" style="display: none">
+	<p class="question" style="font-size: 16px;color: #000000">Run a control test to check if your device is in good condition. </p>
+<div class="answer">
+	 <p style="font-size: 16px;color: #000000">
+		A simple way to gauge the if the system is working correctly is to simply use ambient air. Point the sampling
+		syringe into the air and follow Testing Guidelines below to conduct a test. You can also run a test with any
+		standard gas or a calibration run. Please refer to User Manual if you choose to run a standard test or a
+		calibration.
+ </p>
+</div>
+ </li>
+ <li class="technical" style="display: none">
+	<p class="question" style="font-size: 16px;color: #000000">Connect.</p>
+<div class="answer">
+	 <p style="font-size: 16px;color: #000000">
+		Connect your NovaTest&trade; P100 to your computer. <br/>
+	Connect your sample NovaTest&trade; P100.
+ </p>
+</div>
+ </li>
+ <li class="technical" style="display: none">
+	<p class="question" style="font-size: 16px;color: #000000">Open.</p>
+<div class="answer">
+	 <p style="font-size: 16px;color: #000000">
+		Open the carrier gas.<br/>
+	Open the software on your computer.
+ </p>
+</div>
+ </li>
+ <li class="technical" style="display: none">
+	<p class="question" style="font-size: 16px;color: #000000">Select.</p>
+<div class="answer">
+	 <p style="font-size: 16px;color: #000000">
+		Click ‘Run Test’ on home page.<br/>
+		Select a method.
+ </p>
+</div>
+ </li>
+ <li class="technical" style="display: none">
+	<p class="question" style="font-size: 16px;color: #000000">Test.</p>
+<div class="answer">
+	 <p style="font-size: 16px;color: #000000">
+		Input the sample name & sampling time. <br/>
+		Click ‘Start’.
+ </p>
+</div>
+ </li>
+</ul>
+</div>
+<!-- /faq_list-->
+
+
+</div>
+</div>
+<!--install-->
+
+ </div>
+</div>
+
+<!-- footer -->
+<div class="footer">
+ <footer>
+  <!-- bottom about -->
+  <div class="bottom_about">
+   <p><img src="images/WebLogo.png" alt="" style="width: 200px;"/></p>
+   <p>Nanova Environmental, Inc. (NEI) provides advanced Technologies, Products, and Services for Environmental Monitoring
+   	 and Environmental Protection.
+   	 Our goal is to continually improve our products beyond the industry standards with the help of our brilliant engineers
+   	  and rigorous research. Our vision is “Better Life Through Innovation”.</p>
+  </div>
+  <!-- /bottom about -->
+  <!-- recent tweets -->
+  <div class="recent_tweets">
+   <h3><span>United states</span></h3>
+   <ul>
+   	<li> <strong>Contact: </strong> <br/>Tel:  &nbsp &nbsp &nbsp+1 (573)256-6266 <br/> Fax: &nbsp &nbsp +1 (573)256-6266
+   	<br/>E-mail:<a href="mailto:contact_us@nanovaenv.com"> contact_us@nanovaenv.com</a><br/><br/>
+    <strong>Address: </strong> <br/>3009 David Dr. <br/>Columbia, MO. 65202 <br/>
+    	  <a target="_blank" href="https://www.google.com/maps/place/3009+David+Dr,+Columbia,+MO+65202/@38.9852623,-92.2943834,17z/data=!4m5!3m4!1s0x87dcc7e80f1c3b79:0x69170b47252033c4!8m2!3d38.985304!4d-92.292184">Show on Maps</a>
+      <br/><br/>
+    </li>
+   </ul>
+  </div>
+  <!-- /recent tweets -->
+  <!-- recent posts -->
+  <div class="recent_posts">
+   <h3><span>China</span></h3>
+   <strong>Contact: </strong> <br/>Tel:  &nbsp &nbsp &nbsp+86 0512-67901141 <br/> Fax: &nbsp &nbsp +86 0512-67091145
+   	<br/>E-mail:<a href="mailto:contact_us@nanovaenv.com"> contact_us@nanovaenv.com</a><br/><br/>
+    <strong>Address: </strong> <br/>1518-1201 Xinsu building <br/>East circle Rd. <br/>Suzhou,  Jiangsu province<br/>
+    	  <a target="_blank" href="http://map.baidu.com/?newmap=1&s=con%26wd%3D%E8%8B%8F%E5%B7%9E%E4%B8%9C%E7%8E%AF%E8%B7%AF+1518%26c%3D224&from=alamap&tpl=mapsite">Show on Maps</a>
+      <br/><br/>
+  </div>
+  <!-- /recent posts -->
+  <!-- subscribe block -->
+  <div class="subscribe_block">
+   <h3><span>Stay Connected</span></h3>
+   <form method="post" action="#" />
+    <p><input type="text" id="name" value="NAME ..." /></p>
+    <p><input type="text" id="email" value="EMAIL ..." /></p>
+    <p><input type="submit" value="Subscribe" /></p>
+   </form>
+  </div>
+  <!-- /subscribe block -->
+ </footer>
+ <!-- social block -->
+<div class="social_block">
+ <div class="wraper">
+  <p>Stay connected with us in your favorite flavor!</p>
+  <ul>
+   <li class="facebook"><a href="#">Facebook</a></li>
+   <li class="twitter"><a href="#">Twitter</a></li>
+   <li class="linkedin"><a href="#">LinkedIn</a></li>
+   <li class="rss"><a href="#">RSS</a></li>
+   <li class="dribbble"><a href="#">Dribbble</a></li>
+   <li class="google"><a href="#">Google+</a></li>
+  </ul>
+ </div>
+</div>
+<!-- /social block -->
+</div>
+
+<!-- copyright -->
+<div class="copyright">
+ <div class="wraper">
+  <p>Copyright 2016 Nanova Environmental Inc. </p>
+  <a class="top" href="#">Back to the top</a>
+ </div>
+</div>
+<!-- /copyright -->
+<!-- /footer -->
+</body>
+</html>

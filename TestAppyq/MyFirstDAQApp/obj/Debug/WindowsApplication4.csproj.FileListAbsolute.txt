@@ -1,0 +1,10 @@
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\bin\Debug\WindowsApplication4.exe
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\bin\Debug\WindowsApplication4.pdb
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\ResolveAssemblyReference.cache
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\WindowsApplication4.Form1.resources
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\WindowsApplication4.Properties.Resources.resources
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\GenerateResource.read.1.tlog
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\GenerateResource.write.1.tlog
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\WindowsApplication4.exe.licenses
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\WindowsApplication4.exe
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\WindowsApplication4.pdb

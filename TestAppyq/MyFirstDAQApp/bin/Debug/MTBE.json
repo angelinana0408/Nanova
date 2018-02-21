@@ -1,0 +1,34 @@
+{
+  "VOCList": [
+    "methyl tert-butyl ether"
+  ],
+  "VOCRetentionTime": [
+	104
+  ],
+  "TheCalibration": "MTBE_Cali_20170222154912_10000",
+  "CalibrationVOCList": [
+    "1634-04-4"
+  ],
+  "lowestTempvalue": 35.0,
+  "lowestTvalue": 1.0,
+  "HighestTempvalue": 150.0,
+  "HighestTvalue": 1.0,
+  "RampSpeedvalue": 30.0,
+  "heartcuttingStartList": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "heartcuttingEndList": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "heartcuttingNumber": 0
+}

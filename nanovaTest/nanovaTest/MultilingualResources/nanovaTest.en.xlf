@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en" original="NANOVATEST/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1795.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="NANOVATEST/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="Temp.Text" translate="yes" xml:space="preserve">
+          <source>Temperature</source>
+          <target state="new">Temperature</target>
+        </trans-unit>
+        <trans-unit id="MainMenuGreetingString.Text" translate="yes" xml:space="preserve">
+          <source>What would you like to do?</source>
+          <target state="new">What would you like to do?</target>
+        </trans-unit>
+        <trans-unit id="MainMenuSelectMethod" translate="yes" xml:space="preserve">
+          <source>Run Test</source>
+          <target state="new">Run Test</target>
+        </trans-unit>
+        <trans-unit id="MainMenuCustomMethod" translate="yes" xml:space="preserve">
+          <source>Advanced Test</source>
+          <target state="new">Advanced Test</target>
+        </trans-unit>
+        <trans-unit id="MainMenuCalibrate" translate="yes" xml:space="preserve">
+          <source>Calibrate</source>
+          <target state="new">Calibrate</target>
+        </trans-unit>
+        <trans-unit id="MainMenuMethodHistory" translate="yes" xml:space="preserve">
+          <source>Test History</source>
+          <target state="new">Test History</target>
+        </trans-unit>
+        <trans-unit id="MainMenuVOCLibrary" translate="yes" xml:space="preserve">
+          <source>VOC Library</source>
+          <target state="new">VOC Library</target>
+        </trans-unit>
+        <trans-unit id="ComeSoon.Text" translate="yes" xml:space="preserve">
+          <source>Come Soon</source>
+          <target state="new">Come Soon</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

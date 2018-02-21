@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="zh-Hans" original="NANOVATEST/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1795.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="NANOVATEST/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="Temp.Text" translate="yes" xml:space="preserve">
+          <source>Temperature</source>
+          <target state="translated">温度</target>
+        </trans-unit>
+        <trans-unit id="MainMenuGreetingString.Text" translate="yes" xml:space="preserve">
+          <source>What would you like to do?</source>
+          <target state="translated">你想怎么办？</target>
+        </trans-unit>
+        <trans-unit id="MainMenuSelectMethod" translate="yes" xml:space="preserve">
+          <source>Run Test</source>
+          <target state="needs-review-translation">选择方法</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="MainMenuCustomMethod" translate="yes" xml:space="preserve">
+          <source>Advanced Test</source>
+          <target state="needs-review-translation">自定义方法</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="MainMenuCalibrate" translate="yes" xml:space="preserve">
+          <source>Calibrate</source>
+          <target state="translated">校准</target>
+        </trans-unit>
+        <trans-unit id="MainMenuMethodHistory" translate="yes" xml:space="preserve">
+          <source>Test History</source>
+          <target state="needs-review-translation">历史记录</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="MainMenuVOCLibrary" translate="yes" xml:space="preserve">
+          <source>VOC Library</source>
+          <target state="translated">VOC库</target>
+        </trans-unit>
+        <trans-unit id="ComeSoon.Text" translate="yes" xml:space="preserve">
+          <source>Come Soon</source>
+          <target state="translated">正在开发中</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

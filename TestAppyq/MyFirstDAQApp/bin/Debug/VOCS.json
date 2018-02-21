@@ -1,0 +1,121 @@
+[
+    {
+      "VOCName": "benzene",
+      "CASNum": "71-43-2",
+      "IonizationPotiential": 9.25,
+      "BP": 80.1,
+      "MolecularWeight": 78.11
+    },
+    {
+      "VOCName": "toluene",
+      "CASNum": "108-88-3",
+      "IonizationPotiential": 8.82,
+      "BP": 111,
+      "MolecularWeight": 92.14
+    },
+    {
+      "VOCName": "ethylbenzene",
+      "CASNum": "100-41-4",
+      "IonizationPotiential": 8.76,
+      "BP": 136,
+      "MolecularWeight": 106.17
+    },
+    {
+      "VOCName": "o-xylene",
+      "CASNum": "95-47-6",
+      "IonizationPotiential": 8.56,
+      "BP": 144.4,
+      "MolecularWeight": 106.17
+    },
+    {
+      "VOCName": "m-xylene",
+      "CASNum": "108-38-3",
+      "IonizationPotiential": 8.56,
+      "BP": 139,
+      "MolecularWeight": 106.16
+    },
+    {
+      "VOCName": "p-xylene",
+      "CASNum": "106-42-3",
+      "IonizationPotiential": 8.45,
+      "BP": 138.35,
+      "MolecularWeight": 106.17
+    },
+    {
+      "VOCName": "methyl tert-butyl ether",
+      "CASNum": "1634-04-4",
+      "IonizationPotiential": 10,
+      "BP": 55.2,
+      "MolecularWeight": 88.15
+    },
+    {
+      "VOCName": "Trichloroethylene",
+      "CASNum": "79-01-6",
+      "IonizationPotiential": 9.45,
+      "BP": 87.2,
+      "MolecularWeight": 131.4
+    },
+    {
+      "VOCName": "Tetrachloroethylene",
+      "CASNum": "127-18-4",
+      "IonizationPotiential": 9.32,
+      "BP": 121.1,
+      "MolecularWeight": 165.82
+    },
+    {
+      "VOCName": "Ammonia",
+      "CASNum": "766-41-7",
+      "IonizationPotiential": 10.15,
+      "BP": -33.34,
+      "MolecularWeight": 17.031
+    },
+    {
+      "VOCName": "Trimethylamine",
+      "CASNum": "75-50-3",
+      "IonizationPotiential": 7.82,
+      "BP": 5,
+      "MolecularWeight": 59.11
+    },
+    {
+      "VOCName": "Hydrogen sulfide",
+      "CASNum": "7783-06-4",
+      "IonizationPotiential": 10.46,
+      "BP": -60,
+      "MolecularWeight": 34.08
+    },
+    {
+      "VOCName": "Methanthiol",
+      "CASNum": "74-93-1",
+      "IonizationPotiential": 9.44,
+      "BP": 5.95,
+      "MolecularWeight": 48.11
+    },
+    {
+      "VOCName": "Dimethyl sulfide",
+      "CASNum": "75-18-3",
+      "IonizationPotiential": 8.7,
+      "BP": 38,
+      "MolecularWeight": 62.13
+    },
+    {
+      "VOCName": "Dimethyl disulfide",
+      "CASNum": "624-92-0",
+      "IonizationPotiential": 8.46,
+      "BP": 110,
+      "MolecularWeight": 94.19
+    },
+    {
+      "VOCName": "Carbon disulfide",
+      "CASNum": "175-15-0",
+      "IonizationPotiential": 10.07,
+      "BP": 46.24,
+      "MolecularWeight": 76.13
+    },
+    {
+      "VOCName": "Styrene",
+      "CASNum": "100-42-5",
+      "IonizationPotiential": 8.47,
+      "BP": 145,
+      "MolecularWeight": 104.15
+    }
+]

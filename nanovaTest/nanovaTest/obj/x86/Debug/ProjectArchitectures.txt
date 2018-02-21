@@ -1,0 +1,1 @@
+C:\workspace\nanovaTest\Code\nanovaTest\nanovaTest\nanovaTest.csproj;x86

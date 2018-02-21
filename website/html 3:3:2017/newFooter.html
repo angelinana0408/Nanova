@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Nanova Environmental Inc.</title>
+<link rel="icon" type="image/png" href="images/N_Logo-Transparent.ico" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+<!--[if lt IE 9]>
+<script src="scripts/ie9.js">IE7_PNG_SUFFIX=".png";</script>
+<![endif]-->
+<link href='http//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="stylesheets/style.css" />
+<link rel="stylesheet" href="stylesheets/responsive.css" />
+<link rel="stylesheet" href="stylesheets/prettyPhoto.css" />
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/jquery.bxSlider.min.js"></script>
+<script src="scripts/jquery.prettyPhoto.js"></script>
+<script src="scripts/jquery.blackandwhite.min.js"></script>
+<script src="scripts/js_func.js"></script>
+ <!-- bottom about -->
+ <div class="bottom_about">
+  <p><img src="images/WebLogo.png" alt="" style="width: 200px;"/></p>
+  <p>aaNanova Environmental, Inc. (NEI) provides advanced Technologies, Products, and Services for Environmental Monitoring
+    and Environmental Protection. We are proud to launch the very first portable 2D Gas Chromatography (GC)/PID system.
+    Our goal is to continually improve our products beyond the industry standards with the help of our brilliant engineers
+     and rigorous research. Our vision is “Better Life Through Innovation”.</p>
+ </div>
+ <!-- /bottom about -->
+ <!-- recent tweets -->
+ <div class="recent_tweets">
+  <h3><span>United states</span></h3>
+  <ul>
+   <li> <strong>Contact: </strong> <br/>Tel:  &nbsp &nbsp &nbsp+1 (573)256-6266 <br/> Fax: &nbsp &nbsp +1 (573)256-6266
+   <br/>E-mail:<a style="color:#007ACA" href="mailto:info@nanovaenv.com"> info@nanovaenv.com</a><br/><br/>
+   <strong>Address: </strong> <br/>3009 David Dr. <br/>Columbia, MO. 65202 <br/>
+       <a target="_blank" style="color:#007ACA" href="https://www.google.com/maps/place/3009+David+Dr,+Columbia,+MO+65202/@38.9852623,-92.2943834,17z/data=!4m5!3m4!1s0x87dcc7e80f1c3b79:0x69170b47252033c4!8m2!3d38.985304!4d-92.292184">Show on Maps</a>
+     <br/><br/>
+   </li>
+  </ul>
+ </div>
+ <!-- /recent tweets -->
+ <!-- recent posts -->
+ <div class="recent_posts">
+  <h3><span>China</span></h3>
+  <strong>Contact: </strong> <br/>Tel:  &nbsp &nbsp &nbsp+86 0512-67901141 <br/> Fax: &nbsp &nbsp +86 0512-67091145
+   <br/>E-mail:<a style="color:#007ACA" href="mailto:info@nanovaenv.com"> info@nanovaenv.com</a><br/><br/>
+   <strong>Address: </strong> <br/>1518 Donghuan Rd., Xinsu building, Room 1201 <br/>Suzhou,  Jiangsu province<br/>
+       <a target="_blank" style="color:#007ACA" href="http://map.baidu.com/?newmap=1&s=con%26wd%3D%E8%8B%8F%E5%B7%9E%E4%B8%9C%E7%8E%AF%E8%B7%AF+1518%26c%3D224&from=alamap&tpl=mapsite">Show on Maps</a>
+     <br/><br/>
+ </div>
+ <!-- /recent posts -->
+ <!-- subscribe block -->
+ <div class="subscribe_block">
+  <h3><span>Stay Connected</span></h3>
+  <form method="post" action="#" />
+   <p><input type="text" id="name" value="NAME ..." /></p>
+   <p><input type="text" id="email" value="EMAIL ..." /></p>
+   <p><input type="submit" value="Subscribe" onclick="getInfo()"/></p>
+  </form>
+ </div>
+
+ <script>
+ function getInfo(){
+   var name = document.getElementById("name");
+   var email = document.getElementById("email");
+   var nameText = name.value;
+   var emailText = email.value;
+   //alert(nameText+', '+emailText);
+   passInfo(nameText, emailText);
+ }
+
+ function passInfo(nameText, emailText){
+         var data = {
+             name: nameText,
+             email: emailText
+         };
+
+         $.post("saveInfo.php", data);
+     }
+ </script>
+ <!-- /subscribe block -->
+<!-- social block
+<div class="social_block">
+<div class="wraper">
+ <p>Stay connected with us in your favorite flavor!</p>
+ <ul>
+  <li class="facebook"><a href="#">Facebook</a></li>
+  <li class="twitter"><a href="#">Twitter</a></li>
+  <li class="linkedin"><a href="#">LinkedIn</a></li>
+  <li class="rss"><a href="#">RSS</a></li>
+  <li class="dribbble"><a href="#">Dribbble</a></li>
+  <li class="google"><a href="#">Google+</a></li>
+ </ul>
+</div>
+</div>
+/social block -->
+</body>
+</html> 

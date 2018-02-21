@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>News&Events</title>
+<link rel="icon" type="image/png" href="images/N_Logo-Transparent.ico" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+<!--[if lt IE 9]>
+<script src="scripts/ie9.js">IE7_PNG_SUFFIX=".png";</script>
+<![endif]-->
+<link href='http//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="stylesheets/style.css" />
+<link rel="stylesheet" href="stylesheets/responsive.css" />
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/jquery.bxSlider.min.js"></script>
+<script src="scripts/jquery.faq.js"></script>
+<script src="scripts/jquery.prettyPhoto.js"></script>
+<script src="scripts/jquery.blackandwhite.min.js"></script>
+<script src="scripts/js_func.js"></script>
+<script>
+$(function(){
+	$(".gallery a[rel^='prettyPhoto']").prettyPhoto({theme: 'dark_rounded'});
+	$('.clients_slider').bxSlider({
+		auto: false,
+		controls : false,
+		mode: 'fade',
+		pager: true
+	});
+	$('.recent_slider').bxSlider({
+		auto: false,
+		displaySlideQty: 1,
+		moveSlideQty: 1,
+    	speed : 1000
+	});
+	$('#faq').dltoggle();
+	$("#open").click(function(event){
+      $('#faq').dltoggle_show();
+      return false;
+	});
+	$("#close").click(function(event){
+      $('#faq').dltoggle_hide();
+      return false;
+	});
+	$('#tab-1 ul li a').click(function(){
+		var currentTab = $(this).attr('href');
+		$('#RightSide ul').hide();
+		$(currentTab).show();
+		return false;
+	});
+	$('#tab-2 ul li a').click(function(){
+		var currentTab = $(this).attr('href');
+		$('#RightSide ul').hide();
+		$(currentTab).show();
+		return false;
+	});
+});
+</script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<div class="wraper">
+ <header class="header">
+  <a class="logo" href="index.html">construct</a>
+  <nav>
+  <!-- top menu -->
+   <ul>
+    <li class="navItem"><a class="navItemA" href="Product_introduction.html">Product</a></li>
+    <li class="navItem"><a class="navItemA" href="Application.html">Application</a>
+     <ul>
+      <li><a href="Application.html#tab-1">TVOC</a></li>
+      <li><a href="Application.html#tab-2">BTEX</a></li>
+      <li><a href="Application.html#tab-3">MTBE</a></li>
+      <li><a href="Application.html#tab-4">TCE/PCE</a></li>
+	  <li><a href="Application.html#tab-5">Malodorous Gas</a></li>
+		<li><a href="Application.html#tab-6">Vehicle</a></li>
+		<li><a href="Application.html#tab-7">Air Quality</a></li>
+		<li><a href="Application.html#tab-8">Pollution Source</a></li>
+		<li><a href="Application.html#tab-9">Water Quality</a></li>
+     </ul>
+    </li>
+		<li class="navItem"><a class="navItemA" href="Documents.html" id="docsItem">Docs</a></li>
+		<li class="navItem"><a class="navItemA" href="career.html">Career</a></li>
+		<li class="navItem"><a class="navItemA" href="company.html">Company</a>
+		 <ul>
+			<li><a href="Contact.html">Contact</a></li>
+			<li><a href="company.html">About Us</a></li>
+			<li><a href="NewsAndEvents.html">News & Events</a></li>
+		 </ul>
+    </li>
+   </ul>
+  <!-- /top menu -->
+  </nav>
+ </header>
+</div>
+
+<div class="content_block">
+ <!-- /top_title -->
+  <!-- /top_title -->
+ <div class="wraper">
+  <!-- sidebar -->
+  <div class="sidebar">
+  	<!-- most popular -->
+    <div class="most_popular">
+    <h4><a href="company_blog.html">News & Research</a></h4>
+    <ul>
+     <li>
+      <div class="bwWrapper"><a href="Product_introduction.html"><img src="images/Pics/NovaTech P100.jpg" width="60" height="55" alt="" /></a></div>
+      <div class="desc">
+       <p><strong><a href="Product_introduction.html">New technologies used in portable GC</a></strong></p>
+       <p>Multi-dimensional concept was first used to develop the NovaTestTM P100 portable GC</p>
+       <p><span>May 1<sup>st</sup> 2016 </span></p>
+      </div>
+     </li>
+     <li>
+      <div class="bwWrapper"><a href="Contact.html"><img src="images/Pics/overpage.jpg" width="60" height="55" alt="" /></a></div>
+      <div class="desc">
+       <p><strong><a href="Contact.html">NEI China Branch established</strong></a></p>
+       <p>Suzhou, China</p>
+       <p><span>January 1<sup>st</sup> 2016 </span></p>
+      </div>
+     </li>
+     <li>
+			<div class="bwWrapper"><a href="meetingBlog.html"><img src="images/pittcon/welcomeS.png" width="60" height="55" alt="" /></a></div>
+	 		<div class="desc">
+	 		 <p><strong><a href="meetingBlog.html">We’ve been exhibitors at Pittcon 2017</a></strong></p>
+	 		 <p>Chicago,Illinois</p>
+	 		 <p><span>March 6<sup>th</sup> 2017 </span></p>
+	 		</div>
+     </li>
+    </ul>
+   </div>
+   <!-- /most popular -->
+   <!-- Upcoming events -->
+   <div class="most_popular">
+    <h4><a href="company_blog.html">Upcoming Events</a></h4>
+    <ul>
+     <li>
+      <div class="bwWrapper"><a href="http://pittcon.org/pittcon-2017/"><img src="images/Pics/Pittcon.png" width="60" height="55" alt="" /></a></div>
+      <div class="desc">
+       <p><strong><a href="http://pittcon.org/pittcon-2017/">PITTCON 2017</a></strong></p>
+       <p>Welcome to visit our booth (4008) during the PITTCON 2017<br/>
+            <strong>McCormick Place,<br/> Chicago, IL</strong> </p>
+       <p><span>March 6<sup>th</sup> - March 9 <sup>th</sup>2017 </span></p>
+      </div>
+     </li>
+     <li>
+      <div class="bwWrapper"><a href="https://aeesp2017.com/"><img src="images/Pics/AEESP.png" width="60" height="55" alt="" /></a></div>
+      <div class="desc">
+       <p><strong><a href="https://aeesp2017.com/">AEESP 2017 Conference</a></strong></p>
+       <p>NEI will sponsor the U.S-China Research and Education Workshop<br/>
+       <strong>University of Michigan</strong></p>
+       <p><span>June 20<sup>th</sup> - June 22 <sup>th</sup>2017 </span></p>
+      </div>
+     </li>
+    </ul>
+   </div>
+   <!-- /upcoming events -->
+   <!-- acc tabs
+   <div class="acc_tabs">
+	<div id="tabs">
+     <ul class="tab_select">
+      <li><a href="#tab-1">Archives</a></li>
+      <li><a href="#tab-2">Categories</a></li>
+     </ul>
+     <div id="tab-1">
+      <ul>
+       <li><a href="#2016FebNews">February 2016 (1)</a></li>
+       <li><a href="#">May 2016 (1)</a></li>
+       <li><a href="#">October 2016 (12)</a></li>
+      </ul>
+     </div>
+     <div id="tab-2">
+      <ul>
+       <li><a href="#">NavaTest P100 (3)</a></li>
+       <li><a href="#">Nanova Environmental Inc. (1)</a></li>
+       <li><a href="#">Nanova (1)</a></li>
+      </ul>
+     </div>
+    </div>
+   </div>
+   /acc tabs -->
+  </div>
+  <!-- /sidebar -->
+  <!-- portfolio_sidebar -->
+  <div id="RightSide" class="portfolio_sidebar portfolio_sidebar_right">
+  <a href="index.html"><img src="images/invitation/Invitation 1.png" width = 100%>
+  </img></a>
+	<a href="http://pittcon.org/pittcon-2017/"><img src="images/invitation/Invitation 2.png" width = 100%>
+  </img></a>
+	<a href="Product_introduction.html"><img src="images/invitation/Invitation 3.png" width = 100%>
+  </img></a>
+	<img src="images/invitation/Invitation 4.png" width = 100%>
+  </img>
+	<img src="images/invitation/Invitation 5.png" width = 100%>
+  </img>
+	<img src="images/invitation/Invitation 6.png" width = 100%>
+  </img>
+	<a href="Contact.html"><img src="images/invitation/Invitation 7.png" width = 100% >
+  </img></a>
+	<br/><br/><br/><br/><br/><br/>
+  </div>
+   <!--<ul id="2016FebNews"class="gallery">
+    <li>
+     <div class="img bwWrapper"><a href="images/portfolio/portfolio_39.jpg" rel="prettyPhoto[gallery2]"><img src="images/portfolio/portfolio_39.jpg" width="641" height="266" alt="" /></a></div>
+     <div class="desc">
+      <h5><a href="single_full.html">New technologies used in portable GC</a> <span>November 21<sup>st</sup> 2016</span></h5>
+      <p>Fugiat dapibus, tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum mas justo sitters amet risus. Cras mattis cosi sectetut amet fermens tum aecenas faucib sadips amets. Libero tempore, cum soluta nobis est eligen di optio cumque nihil impedit quo minus id quodsir maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus sadips ipsums fugiats vitae voluptas dolores amets untras ochoc neuav ...</p>
+      <p><a class="read_more btn_col" href="single_full.html">Read More</a></p>
+     </div>
+    </li>
+    <li>
+     <div class="img bwWrapper"><a href="images/portfolio/portfolio_40.jpg" rel="prettyPhoto[gallery2]"><img src="images/portfolio/portfolio_40.jpg" width="641" height="266" alt="" /></a></div>
+     <div class="desc">
+      <h5><a href="single_full.html">Voluptas Sadips Fugiat Un Dolores Amets </a> <span>Graphic Design, Web Design, Branding</span></h5>
+      <p>Fugiat dapibus, tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum mas justo sitters amet risus. Cras mattis cosi sectetut amet fermens tum aecenas faucib sadips amets. Libero tempore, cum soluta nobis est eligen di optio cumque nihil impedit quo minus id quodsir maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus sadips ipsums fugiats vitae voluptas dolores amets untras ochoc neuav ...</p>
+      <p><a class="read_more btn_col" href="single_full.html">Read More</a></p>
+     </div>
+    </li>
+    <li>
+     <div class="img bwWrapper"><a href="images/portfolio/portfolio_41.jpg" rel="prettyPhoto[gallery2]"><img src="images/portfolio/portfolio_41.jpg" width="641" height="266" alt="" /></a></div>
+     <div class="desc">
+      <h5><a href="single_full.html">Voluptas Sadips Fugiat Un Dolores Amets </a> <span>Graphic Design, Web Design, Branding</span></h5>
+      <p>Fugiat dapibus, tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum mas justo sitters amet risus. Cras mattis cosi sectetut amet fermens tum aecenas faucib sadips amets. Libero tempore, cum soluta nobis est eligen di optio cumque nihil impedit quo minus id quodsir maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus sadips ipsums fugiats vitae voluptas dolores amets untras ochoc neuav ...</p>
+      <p><a class="read_more btn_col" href="single_full.html">Read More</a></p>
+     </div>
+    </li>
+    <li>
+     <div class="img bwWrapper"><a href="images/portfolio/portfolio_42.jpg" rel="prettyPhoto[gallery2]"><img src="images/portfolio/portfolio_42.jpg" width="641" height="266" alt="" /></a></div>
+     <div class="desc">
+      <h5><a href="single_full.html">Voluptas Sadips Fugiat Un Dolores Amets </a><span>Graphic Design, Web Design, Branding</span></h5>
+      <p>Fugiat dapibus, tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum mas justo sitters amet risus. Cras mattis cosi sectetut amet fermens tum aecenas faucib sadips amets. Libero tempore, cum soluta nobis est eligen di optio cumque nihil impedit quo minus id quodsir maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus sadips ipsums fugiats vitae voluptas dolores amets untras ochoc neuav ...</p>
+      <p><a class="read_more btn_col" href="single_full.html">Read More</a><a class="visit_project btn_col" href="single_full.html">Visit Project</a></p>
+     </div>
+    </li>
+   </ul>-->
+   <!-- pager_nav
+   <div class="pager_nav">
+    <span>1</span><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a>
+    <a href="#" class="bx-prev">prev</a><a href="#" class="bx-next">next</a>
+   </div>
+   /pager_nav -->
+  </div>
+  <!-- /portfolio_sidebar -->
+ </div>
+</div>
+
+<!-- footer -->
+<div class="footer">
+ <footer>
+  <!-- bottom about -->
+  <div class="bottom_about">
+   <p><img src="images/WebLogo.png" alt="" style="width: 200px;"/></p>
+   <p>Nanova Environmental, Inc. (NEI) provides advanced Technologies, Products, and Services for Environmental Monitoring
+   	 and Environmental Protection. We are proud to launch the very first portable 2D Gas Chromatography (GC)/PID system.
+   	 Our goal is to continually improve our products beyond the industry standards with the help of our brilliant engineers
+   	  and rigorous research. Our vision is “Better Life Through Innovation”.</p>
+  </div>
+  <!-- /bottom about -->
+  <!-- recent tweets -->
+  <div class="recent_tweets">
+   <h3><span>United states</span></h3>
+   <ul>
+   	<li> <strong>Contact: </strong> <br/>Tel:  &nbsp &nbsp &nbsp+1 (573)256-6266 <br/> Fax: &nbsp &nbsp +1 (573)256-6266
+   	<br/>E-mail:<a style="color:#007ACA" href="mailto:info@nanovaenv.com"> info@nanovaenv.com</a><br/><br/>
+    <strong>Address: </strong> <br/>3009 David Dr. <br/>Columbia, MO. 65202 <br/>
+    	  <a target="_blank" style="color:#007ACA" href="https://www.google.com/maps/place/3009+David+Dr,+Columbia,+MO+65202/@38.9852623,-92.2943834,17z/data=!4m5!3m4!1s0x87dcc7e80f1c3b79:0x69170b47252033c4!8m2!3d38.985304!4d-92.292184">Show on Maps</a>
+      <br/><br/>
+    </li>
+   </ul>
+  </div>
+  <!-- /recent tweets -->
+  <!-- recent posts -->
+  <div class="recent_posts">
+   <h3><span>China</span></h3>
+   <strong>Contact: </strong> <br/>Tel:  &nbsp &nbsp &nbsp+86 0512-67901141 <br/> Fax: &nbsp &nbsp +86 0512-67091145
+   	<br/>E-mail:<a style="color:#007ACA" href="mailto:info@nanovaenv.com"> info@nanovaenv.com</a><br/><br/>
+    <strong>Address: </strong> <br/>1518-1201 Xinsu building <br/>East circle Rd. <br/>Suzhou,  Jiangsu province<br/>
+    	  <a target="_blank" style="color:#007ACA" href="http://map.baidu.com/?newmap=1&s=con%26wd%3D%E8%8B%8F%E5%B7%9E%E4%B8%9C%E7%8E%AF%E8%B7%AF+1518%26c%3D224&from=alamap&tpl=mapsite">Show on Maps</a>
+      <br/><br/>
+  </div>
+  <!-- /recent posts -->
+  <!-- subscribe block -->
+  <div class="subscribe_block">
+   <h3><span>Stay Connected</span></h3>
+   <form method="post" action="#" />
+    <p><input type="text" id="name" value="NAME ..." /></p>
+    <p><input type="text" id="email" value="EMAIL ..." /></p>
+    <p><input type="submit" value="Subscribe" onclick="getInfo()"/></p>
+   </form>
+  </div>
+  <!-- /subscribe block -->
+	<script>
+	function getInfo(){
+		var name = document.getElementById("name");
+		var email = document.getElementById("email");
+		var nameText = name.value;
+		var emailText = email.value;
+		//alert(nameText+', '+emailText);
+		passInfo(nameText, emailText);
+	}
+
+	function passInfo(nameText, emailText){
+	        var data = {
+	            name: nameText,
+	            email: emailText
+	        };
+
+	        $.post("saveInfo.php", data);
+	    }
+	</script>
+ </footer>
+ <!-- social block
+<div class="social_block">
+ <div class="wraper">
+  <p>Stay connected with us in your favorite flavor!</p>
+  <ul>
+   <li class="facebook"><a href="#">Facebook</a></li>
+   <li class="twitter"><a href="#">Twitter</a></li>
+   <li class="linkedin"><a href="#">LinkedIn</a></li>
+   <li class="rss"><a href="#">RSS</a></li>
+   <li class="dribbble"><a href="#">Dribbble</a></li>
+   <li class="google"><a href="#">Google+</a></li>
+  </ul>
+ </div>
+</div>
+/social block -->
+</div>
+
+<!-- copyright -->
+<div class="copyright">
+ <div class="wraper">
+  <p>Copyright © 2017 Nanova Environmental Inc. </p>
+  <a class="top" href="#">Back to the top</a>
+ </div>
+</div>
+<!-- /copyright -->
+<!-- /footer -->
+</body>
+</html>

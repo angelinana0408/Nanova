@@ -1,0 +1,49 @@
+{
+  "VOCList": [
+    "766-41-7",
+    "75-50-3",
+    "7783-06-4",
+    "74-93-1",
+    "75-18-3",
+    "624-92-0",
+	"175-15-0",
+	"100-42-5"
+  ],
+  "VOCRetentionTime": [
+    5.74,
+    5.57,
+    10.92,
+    0.0,
+    7.02,
+    0.0,
+	0.0,
+	0.0
+  ],
+  "TheCalibration": "",
+  "CalibrationVOCList": [
+    "71-43-2",
+    "108-88-3",
+    "100-41-4"
+  ],
+  "lowestTempvalue": 30.0,
+  "lowestTvalue": 2.0,
+  "HighestTempvalue": 30.0,
+  "HighestTvalue": 0.0,
+  "RampSpeedvalue": 10.0,
+  "heartcuttingStartList": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "heartcuttingEndList": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "VOCList": [
+    "79-01-6",
+    "127-18-4"
+  ],
+  "VOCRetentionTime": [
+    58.7,
+    264.21
+  ],
+  "TheCalibration": "",
+  "CalibrationVOCList": [
+    "79-01-6"
+  ],
+  "lowestTempvalue": 35.0,
+  "lowestTvalue": 1.0,
+  "HighestTempvalue": 150.0,
+  "HighestTvalue": 1.0,
+  "RampSpeedvalue": 30.0,
+  "heartcuttingStartList": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "heartcuttingEndList": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

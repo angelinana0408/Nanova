@@ -1,0 +1,46 @@
+{
+  "VOCList": [
+    "benzene",
+    "toluene",
+    "ethylbenzene",
+    "m-xylene",
+    "p-xylene",
+    "o-xylene"
+  ],
+  "VOCRetentionTime": [
+    17.8,
+    59.3,
+    122,
+    124,
+    134,
+    157.5
+  ],
+  "TheCalibration": "BTEX_Cali_20170222154912_10000",
+  "CalibrationVOCList": [
+    "benzene",
+    "toluene",
+    "ethylbenzene"
+  ],
+  "lowestTempvalue": 30.0,
+  "lowestTvalue": 5.0,
+  "HighestTempvalue": 30.0,
+  "HighestTvalue": 0.0,
+  "RampSpeedvalue": 10.0,
+  "heartcuttingStartList": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "heartcuttingEndList": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "heartcuttingNumber": 0
+}

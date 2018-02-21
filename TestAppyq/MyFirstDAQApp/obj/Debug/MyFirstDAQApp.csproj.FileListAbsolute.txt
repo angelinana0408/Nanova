@@ -1,0 +1,122 @@
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\WindowsApplication4.exe
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\WindowsApplication4.pdb
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\bin\Debug\WindowsApplication4.exe
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\bin\Debug\WindowsApplication4.pdb
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\ResolveAssemblyReference.cache
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\WindowsApplication4.Form1.resources
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\WindowsApplication4.Properties.Resources.resources
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\GenerateResource.read.1.tlog
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\GenerateResource.write.1.tlog
+c:\temp\visual studio 2010\Projects\WindowsApplication4\WindowsApplication4\obj\Debug\WindowsApplication4.exe.licenses
+M:\Work\Tutorials\CSharp\Data Acquisition in CSharp\code\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\WindowsApplication4.exe
+M:\Work\Tutorials\CSharp\Data Acquisition in CSharp\code\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\WindowsApplication4.pdb
+M:\Work\Tutorials\CSharp\Data Acquisition in CSharp\code\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.exe
+M:\Work\Tutorials\CSharp\Data Acquisition in CSharp\code\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.pdb
+M:\Work\Tutorials\CSharp\Data Acquisition in CSharp\code\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\ResolveAssemblyReference.cache
+M:\Work\Tutorials\CSharp\Data Acquisition in CSharp\code\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\GenerateResource.read.1.tlog
+M:\Work\Tutorials\CSharp\Data Acquisition in CSharp\code\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\GenerateResource.write.1.tlog
+M:\Work\Tutorials\CSharp\Data Acquisition in CSharp\code\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\WindowsApplication4.exe.licenses
+M:\Work\Tutorials\CSharp\Data Acquisition in CSharp\code\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Form1.resources
+M:\Work\Tutorials\CSharp\Data Acquisition in CSharp\code\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Properties.Resources.resources
+C:\Users\王石宇\Desktop\C#\code\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\WindowsApplication4.exe
+C:\Users\王石宇\Desktop\C#\code\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\WindowsApplication4.pdb
+C:\Users\王石宇\Desktop\C#\code\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.csprojResolveAssemblyReference.cache
+C:\Users\王石宇\Desktop\C#\code\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Form1.resources
+C:\Users\王石宇\Desktop\C#\code\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Properties.Resources.resources
+C:\Users\王石宇\Desktop\C#\code\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.csproj.GenerateResource.Cache
+C:\Users\王石宇\Desktop\C#\code\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.exe
+C:\Users\王石宇\Desktop\C#\code\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.pdb
+C:\Users\王石宇\Desktop\C#\code\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\NationalInstruments.Common.dll
+C:\Users\王石宇\Desktop\C#\code\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\NationalInstruments.DAQmx.dll
+C:\Users\王石宇\Desktop\C#\code\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\NationalInstruments.NiLmClientDLL.dll
+C:\Users\王石宇\Desktop\C#\code\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\NationalInstruments.MStudioCLM.dll
+C:\Users\王石宇\Desktop\C#\code\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\NationalInstruments.Common.xml
+C:\Users\王石宇\Desktop\C#\GC\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\WindowsApplication4.exe
+C:\Users\王石宇\Desktop\C#\GC\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\WindowsApplication4.pdb
+C:\Users\王石宇\Desktop\C#\GC\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.exe
+C:\Users\王石宇\Desktop\C#\GC\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.pdb
+C:\Users\王石宇\Desktop\C#\GC\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\NationalInstruments.Common.dll
+C:\Users\王石宇\Desktop\C#\GC\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\NationalInstruments.DAQmx.dll
+C:\Users\王石宇\Desktop\C#\GC\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\ZGraph.dll
+C:\Users\王石宇\Desktop\C#\GC\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\ZGraph.xml
+C:\Users\王石宇\Desktop\C#\GC\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.csprojResolveAssemblyReference.cache
+C:\Users\王石宇\Desktop\C#\GC\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Form1.resources
+C:\Users\王石宇\Desktop\C#\GC\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Properties.Resources.resources
+C:\Users\王石宇\Desktop\C#\GC\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.csproj.GenerateResource.Cache
+C:\Users\王石宇\Desktop\C#\GC\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.exe.config
+C:\Users\Nanova\Documents\Software\GC\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.exe.config
+C:\Users\Nanova\Documents\Software\GC\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\WindowsApplication4.exe
+C:\Users\Nanova\Documents\Software\GC\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\WindowsApplication4.pdb
+C:\Users\Nanova\Documents\Software\GC\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.exe
+C:\Users\Nanova\Documents\Software\GC\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.pdb
+C:\Users\Nanova\Documents\Software\GC\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\NationalInstruments.Common.dll
+C:\Users\Nanova\Documents\Software\GC\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\NationalInstruments.DAQmx.dll
+C:\Users\Nanova\Documents\Software\GC\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\ZGraph.xml
+C:\Users\Nanova\Documents\Software\GC\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.csprojResolveAssemblyReference.cache
+C:\Users\Nanova\Documents\Software\GC\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Form1.resources
+C:\Users\Nanova\Documents\Software\GC\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Properties.Resources.resources
+C:\Users\Nanova\Documents\Software\GC\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.csproj.GenerateResource.Cache
+C:\Users\Nanova\Documents\Software\GC\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Home.resources
+C:\Users\Nanova\Documents\Software\GC\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.BuildInMethods.resources
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.exe.config
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\WindowsApplication4.exe
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\WindowsApplication4.pdb
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.exe
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.pdb
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\NationalInstruments.Common.dll
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\NationalInstruments.DAQmx.dll
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\ZGraph.xml
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.csprojResolveAssemblyReference.cache
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.BuildInMethods.resources
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Form1.resources
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Home.resources
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Properties.Resources.resources
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.csproj.GenerateResource.Cache
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.exe.config
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\WindowsApplication4.exe
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\WindowsApplication4.pdb
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.exe
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\WindowsApplication4.pdb
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\NationalInstruments.Common.dll
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\NationalInstruments.DAQmx.dll
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\ZGraph.xml
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.csprojResolveAssemblyReference.cache
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.BuildInMethods.resources
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Form1.resources
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Home.resources
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Properties.Resources.resources
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.csproj.GenerateResource.Cache
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Library.resources
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Xiaoqing\Documents\Visual Studio 2015\Projects\MyFirstDAQApp\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Library.resources
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\WindowsApplication4.exe.config
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\obj\Debug\WindowsApplication4.exe
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\obj\Debug\WindowsApplication4.pdb
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\WindowsApplication4.exe
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\WindowsApplication4.pdb
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\NationalInstruments.Common.dll
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\NationalInstruments.DAQmx.dll
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\ZGraph.xml
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.csprojResolveAssemblyReference.cache
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Form1.resources
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Properties.Resources.resources
+C:\Users\Nanova\Documents\Visual Studio 2015\Projects\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.csproj.GenerateResource.Cache
+C:\Users\yyx84\Desktop\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\WindowsApplication4.exe.config
+C:\Users\yyx84\Desktop\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\obj\Debug\WindowsApplication4.exe
+C:\Users\yyx84\Desktop\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\obj\Debug\WindowsApplication4.pdb
+C:\Users\yyx84\Desktop\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\WindowsApplication4.exe
+C:\Users\yyx84\Desktop\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\WindowsApplication4.pdb
+C:\Users\yyx84\Desktop\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\NationalInstruments.Common.dll
+C:\Users\yyx84\Desktop\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\NationalInstruments.DAQmx.dll
+C:\Users\yyx84\Desktop\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\yyx84\Desktop\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\yyx84\Desktop\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\bin\Debug\ZGraph.xml
+C:\Users\yyx84\Desktop\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.csprojResolveAssemblyReference.cache
+C:\Users\yyx84\Desktop\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Form1.resources
+C:\Users\yyx84\Desktop\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.Properties.Resources.resources
+C:\Users\yyx84\Desktop\MyFirstDAQAppForQiaoYang\MyFirstDAQApp\obj\Debug\MyFirstDAQApp.csproj.GenerateResource.Cache

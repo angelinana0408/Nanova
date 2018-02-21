@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFile>
+    <FileName>Strings\en-US\Resources.resw</FileName>
+    <Checksum>782518235225185117142168247121261021549494</Checksum>
+    <ModifiedTime>2017-02-15T14:35:02.1119229</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\nanovaTest.en.xlf</FileName>
+    <Checksum>4620093229102189425370120109108761211990</Checksum>
+    <ModifiedTime>2017-02-15T14:36:51.6576719+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\en\Resources.resw</FileName>
+    <Checksum>19525178173832441949178108532091416317160</Checksum>
+    <ModifiedTime>2017-02-15T16:18:03.8358075+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\nanovaTest.zh-Hans.xlf</FileName>
+    <Checksum>1776822123920273223204402924116712218769209</Checksum>
+    <ModifiedTime>2017-02-20T16:52:46.9902707+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage>
+      <string>更新 3 资源字符串与现有的翻译并将其应用到 XLIFF 文件。 相关的翻译都不变改，但应检查，以确保它们仍然有效，更新的源字符串。</string>
+    </WarningMessage>
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\zh-Hans\Resources.resw</FileName>
+    <Checksum>1934712109176492161085251523213378123231</Checksum>
+    <ModifiedTime>2017-02-20T16:52:47.0152869+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+</ArrayOfCacheFile>
